@@ -1,0 +1,25 @@
+.footer{
+    width: 100%;
+    background-color: #131414;
+    box-shadow: 1px 1px 10px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.footer div{
+    margin: 0px 30px;
+    flex-direction: column;
+    text-align: right;
+}
+.intro, .contact{
+    font-size: 1vh;
+    color: white;
+}
+.intro h2{
+    line-height: 250%;
+}
+.intro img{
+
+    width: 3%;
+    height: 3%;
+}

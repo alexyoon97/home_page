@@ -1,0 +1,58 @@
+@import url("https://fonts.google.com/specimen/Jost?sidebar.open&selection.family=Jost:wght@500");
+.top {
+  background-color: #161818;
+  height: 100%;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 200px;
+  z-index: 200;
+  transform: translateX(-80%);
+  transition: transform 0.3s ease-out;
+  text-align: center;
+}
+.top.open {
+  transform: translateX(0);
+}
+.links {
+  position: relative;
+  top: 50px;
+}
+.Home {
+  flex-direction: column;
+  display: flex;
+}
+.Home a,
+.top a {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.toggle_button {
+  position: fixed;
+  top: 10px;
+  left: 170px;
+  background: transparent;
+  font-size: 30px;
+  color: white;
+  border: none;
+  z-index: 250;
+  padding: 0;
+}
+.toggle_button:hover,
+.Home a:hover,
+.top a:hover {
+  text-shadow: 0px 0px 10px white;
+}
+.toggle_button:focus {
+  outline: none;
+}
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
