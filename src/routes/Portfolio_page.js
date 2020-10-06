@@ -19,7 +19,7 @@ const Portfolio_list = [
     name: "Vannila JS minigame",
     img: JS_minigame_image,
     desc: "Win a point if line the ball",
-    link:"https://thor.net.nait.ca/~alexyoon/cmpe2000/lab/lab02/lab02.html"
+    link:"https://alexyoon97.github.io/Vanila_JS_minigame/"
 
   },
   {

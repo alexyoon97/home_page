@@ -11,31 +11,28 @@ function About() {
       <header className="header">ABOUT</header>
       <div className="about_container">
         <div className="paragraph">
-          <img className="Me" src={Me}></img>
-          <h1>Hello,</h1>
-          <h1>I'm Alex Yoon</h1>
+          <img className="Me_img" src={Me}></img>
           <br></br>
-          <h2>a programmer</h2>
+          <h1>Hello,</h1>
+          <h1>My name is Alex Yoon</h1>
+          <h2>a developer</h2>
 
           <p>
             I studied Computer Engineering for 2 years at NAIT, my course
             focused <img className="Nait" src={Nait}></img> learning a
-            Object-Oriented Programming, C and C++ language memory management, Web
-            applications and Hardware Interfacing. I am a person that like to
-            interacting with new challenges, so I enjoy to picking up new
-            skills and learn continuously from school. In my college I handled two to three
-            projects per week and I ended up with finishing over 100+ projects.
+            Object-Oriented Programming, C and C++, Web
+            developement and Hardware Interfacing. I am a person that like to
+            interact with new challenges and enjoy to learn and pick up new
+            skills to improve more.
             <br></br>
-            <br></br>I have positive and realistic personality, when I face a
-            difficulty or problem I accept as a challenge and go over it. 
-            I get re-energized and let my stress out by talking and
-            meeting with people, playing sports, and listening to my favorite
-            musics.
+            <br></br>Whenever I face a difficulty or challenges I think as it's great time to improve 
+            and find critical weakness of my self. 
+            I re-energize by talk and meeting with people or playing active and social sports.
             <br></br>
             <br></br>I achieved a Computer Engineering Degree in 2019 and
-            currently I am studying more on frontend side to
-            expand my expertise because I enjoys designing visuals,
-            developing user interfaces and also coding. I hope you enjoyed my website and 
+            currently I am studying more on Front-End side to
+            expand my expertise because I am intrested in designing visuals and 
+            develop User Interfaces. I hope you enjoyed my website and 
             feel free to reach me out for any types of conversation to
             wonsangalex@gmail.com.
           </p>
