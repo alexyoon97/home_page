@@ -1,5 +1,5 @@
-import React, { Component } from "React";
-import JS_weather_image from "C:\Users\wonsa\Documents\Files\portfo_page\src\routes\Portfolios\image\JS_weather_image.png";
+import React, { Component } from "react";
+import JS_weather_image from "./Portfolios/image/JS_weather_image.png";
 import Capstone_image from "./Portfolios/image/Capstone_project_image.JPG";
 import JS_minigame_image from "./Portfolios/image/JS_minigame_image.JPG";
 import Movie_API_image from "./Portfolios/image/Movie_API_image.JPG";
@@ -11,7 +11,7 @@ const Portfolio_list = [
     name: "Recommended outfits for today's weather",
     img: JS_weather_image,
     desc:"",
-    link:""
+    link:"https://future-bedecked-gastonia.glitch.me/"
     
   },
   {

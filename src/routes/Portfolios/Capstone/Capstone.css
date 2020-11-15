@@ -1,9 +1,24 @@
 .Capstone_container img{
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 .Capstone_container{
-    padding: 5vh 0;
+    color: rgba(245, 245, 245, 0.87);
     position: relative;
+    padding-top: 6vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.capstone_text{
+    width:100vh;
+    font-size:2vh;
+    padding:4vh;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left
 }
