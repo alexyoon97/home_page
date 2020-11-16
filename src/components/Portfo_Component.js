@@ -38,7 +38,7 @@ function Portfo_Component({ Portfolio_list }) {
                   {Portfolio_list[index].name} - Click Here
                 </Link>
               ) : (
-                <a href={Portfolio_list[index].link}>
+                <a href={Portfolio_list[index].link} target="_blank">
                   {Portfolio_list[index].name} - Click Here
                 </a>
               )}
