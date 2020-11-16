@@ -6,6 +6,7 @@ import Portfoilo from "./routes/Portfolio_page";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Capstone from "./routes/Portfolios/Capstone/Capstone";
+import ay_logo from "../src/components/logo/ay_logo.png";
 import "./App.css";
 
 class App extends Component {

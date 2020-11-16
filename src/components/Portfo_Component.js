@@ -16,7 +16,9 @@ function Portfo_Component({ Portfolio_list }) {
   return (
     <div className="portfo_container">
       <header className="header">PROJECTS</header>
-      <div style={{paddingTop:"2vh", color:"grey"}}>every project's codes are uploaded on<a style={{color:"grey"}} href="https://github.com/alexyoon97" target="_blank"> github</a></div>
+      <div style={{paddingTop:"3vh", color:"grey"}}>every project's codes are uploaded on <a style={{color:"grey", textDecoration:"underline"}} href="https://github.com/alexyoon97" target="_blank">github</a> 
+        <br></br>click the image to slide.
+      </div>
       <div className="imgSlider">
         {transitions.map(({ item, props, key }) => {
           return (
