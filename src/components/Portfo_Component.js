@@ -4,10 +4,9 @@ import { Link } from "react-router-dom";
 
 function Portfo_Component({ Portfolio_list }) {
   const [index, set] = useState(0);
-  const onClick = useCallback(
-    () => set((state) => (state + 1) % Portfolio_list.length),
-    []
-  );
+  function onClick(){
+    set((state) => (state + 1) % Portfolio_list.length);
+  }
   const transitions = useTransition(index, (p) => p, {
     from: { opacity: 0, transform: "translate3d(100%,0,0)" },
     enter: { opacity: 1, transform: "translate3d(0%,0,0)" },

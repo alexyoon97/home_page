@@ -4,7 +4,6 @@ import Under_con from "../Capstone/img/underconstruction.png"
 import Cap_1 from "../Capstone/img/capstone_project1.gif"
 import Cap_2 from "../Capstone/img/capstone_project2.gif"
 
-
 function Capstone() {
   return (
     <>
