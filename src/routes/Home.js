@@ -29,7 +29,7 @@ class Home extends React.Component{
                     {
                         props=>(
                             <div style={props}>
-                                <Navigation props="Home"/>
+                                <Navigation sidebar="Home"/>
                             </div>
                         )
                     }

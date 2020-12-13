@@ -10,15 +10,21 @@ import ay_logo from "../src/components/logo/ay_logo.png";
 import "./App.css";
 
 class App extends Component {
-  state = {
-    sideDrawerOpen: false,
-  };
-  drawerToggleClickHandler = () => {
+  constructor(props){
+    super(props)
+      this.state = {
+        sideDrawerOpen: false,
+      };
+      this.drawerToggleClickHandler = this.drawerToggleClickHandler.bind(this);
+      this.changeToggletoFalseHandler = this.changeToggletoFalseHandler.bind(this);
+  }
+  
+  drawerToggleClickHandler(){
     this.setState((prevState) => {
       return { sideDrawerOpen: !prevState.sideDrawerOpen };
     });
   };
-  changeToggletoFalseHandler = () => {
+  changeToggletoFalseHandler(){
     setTimeout(() => {
       this.setState({ sideDrawerOpen: false });
     }, 1);
@@ -29,7 +35,7 @@ class App extends Component {
         <Route path="/" exact={true} component={Home} />
         <Route path="/about">
           <Navigation
-            props="top"
+            sidebar="side"
             drawerToggle={this.drawerToggleClickHandler}
             show={this.state.sideDrawerOpen}
             changeToggletoFalse={this.changeToggletoFalseHandler}
@@ -39,7 +45,7 @@ class App extends Component {
         </Route>
         <Route path="/portfolios" exact={true}>
           <Navigation
-            props="top"
+            sidebar="side"
             drawerToggle={this.drawerToggleClickHandler}
             show={this.state.sideDrawerOpen}
             changeToggletoFalse={this.changeToggletoFalseHandler}
@@ -49,7 +55,7 @@ class App extends Component {
         </Route>
         <Route path="/portfolios/:name">
           <Navigation
-            props="top"
+            sidebar="side"
             drawerToggle={this.drawerToggleClickHandler}
             show={this.state.sideDrawerOpen}
             changeToggletoFalse={this.changeToggletoFalseHandler}

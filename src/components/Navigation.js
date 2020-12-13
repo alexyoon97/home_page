@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import "../components/Navigation.css";
 
 const Navigation = (props) => {
-  let drawerClasses = `${props.props}`;
+  let drawerClass = `${props.sidebar}`;
   if (props.show) {
-    drawerClasses = `${props.props} open`;
+    drawerClass = `${props.sidebar} open`;
   }
-  if (props.props === "Home") {
+  if (props.sidebar === "Home") {
     return (
-      <div className={drawerClasses}>
+      <div className={drawerClass}>
         <Link to="/">Home</Link>
         <Link to="/portfolios">Projects</Link>
         <Link to="/about">About</Link>
@@ -17,7 +17,7 @@ const Navigation = (props) => {
     );
   } else
     return (
-      <div className={drawerClasses}>
+      <div className={drawerClass}>
         <button className="toggle_button" onClick={props.drawerToggle}>
           ●
         </button>

@@ -1,5 +1,5 @@
 @import url("https://fonts.google.com/specimen/Jost?sidebar.open&selection.family=Jost:wght@500");
-.top {
+.side {
   background-color: #202020;
   height: 100%;
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
@@ -12,7 +12,7 @@
   transition: transform 0.3s ease-out;
   text-align: center;
 }
-.top.open {
+.side.open {
   transform: translateX(0);
 }
 .links {
@@ -24,7 +24,7 @@
   display: flex;
 }
 .Home a,
-.top a {
+.side a {
   text-align: center;
   position: relative;
   display: inline-block;
@@ -45,7 +45,7 @@
 }
 .toggle_button:hover,
 .Home a:hover,
-.top a:hover {
+.side a:hover {
   text-shadow: 0px 0px 10px white;
 }
 .toggle_button:focus {
