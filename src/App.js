@@ -34,11 +34,11 @@ class App extends Component {
       <HashRouter>
         <Route path="/" exact={true} component={Home} />
         <Route path="/about">
-          <Navigation
-            sidebar="side"
-            drawerToggle={this.drawerToggleClickHandler}
-            show={this.state.sideDrawerOpen}
-            changeToggletoFalse={this.changeToggletoFalseHandler}
+          <Navigation 
+            sidebar="side" //class name
+            drawerToggle={this.drawerToggleClickHandler} //function block
+            show={this.state.sideDrawerOpen}//state value
+            changeToggletoFalse={this.changeToggletoFalseHandler}//function block
           />
           <About />
           <Footer />

@@ -45,7 +45,6 @@ function Portfo_Component({ Portfolio_list }) {
               );
             </animated.div>
           );
-          //
         })}
       </div>
     </div>

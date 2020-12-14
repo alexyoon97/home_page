@@ -39,10 +39,8 @@ const Portfolio_list = [
   },
 ];
 
-class Portfolio_page extends Component {
-  render() {
-    return <Portfo_Component Portfolio_list={Portfolio_list} />;
-  }
+function Portfolio_page(){
+  return <Portfo_Component Portfolio_list={Portfolio_list} />;
 }
 
 export default Portfolio_page;
