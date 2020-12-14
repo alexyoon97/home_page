@@ -5,11 +5,11 @@
 }
 
 .welcome-note{
-    text-shadow: 20px 2px 40px black;
-    background-color: #2a2a2a;
+    text-shadow: 0px 0px 100px #fbc531;
+    background-color: #2f3640;
     position: relative;
     color: white;
     margin: 1vh;
-    font-size: 12vh;
+    font-size: 20vh;
     font-family: 'Roboto', sans-serif;
 }

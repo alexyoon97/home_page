@@ -13,9 +13,9 @@ function About() {
         <div className="paragraph">
           <img className="Me_img" src={Me}></img>
           <br></br>
-          <h1>Hello,</h1>
-          <h1>My name is Alex Yoon</h1>
-          <h2>a developer</h2>
+          <h1 style={{color:"#badc58"}}>Hello,</h1>
+          <h1 style={{color:"white"}}>My name is Alex Yoon</h1>
+          <h2 style={{color:"#ff7979"}}>a developer</h2>
 
           <p>
             I studied Computer Engineering for 2 years at NAIT, my course

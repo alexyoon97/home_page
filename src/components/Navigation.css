@@ -1,6 +1,6 @@
 @import url("https://fonts.google.com/specimen/Jost?sidebar.open&selection.family=Jost:wght@500");
 .side {
-  background-color: #202020;
+  background-color:#e7b630;
   height: 100%;
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
   position: fixed;
@@ -30,29 +30,32 @@
   display: inline-block;
   margin: 20px;
   font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-size: 28px;
 }
 .toggle_button {
   position: fixed;
   top: 10px;
   left: 170px;
   background: transparent;
-  font-size: 30px;
-  color: white;
+  font-size: 35px;
+  color: #e84118;
   border: none;
   z-index: 250;
   padding: 0;
 }
-.toggle_button:hover,
-.Home a:hover,
-.side a:hover {
-  text-shadow: 0px 0px 10px white;
+.toggle_button:hover{
+  text-shadow: 0px 0px 10px #c23616;
 }
 .toggle_button:focus {
   outline: none;
 }
-a:link,
-a:visited {
-  color: white;
+.side a:link,
+.side a:visited {
+  color:#2f3640;
+  text-decoration: none;
+}
+.Home a:link,
+.Home a:visited {
+  color:#aa8b34;
   text-decoration: none;
 }
