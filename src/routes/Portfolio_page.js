@@ -6,6 +6,7 @@ import Movie_API_image from "./Portfolios/image/Movie_API_image.JPG";
 import "../routes/Portfolio_page.css";
 import Portfo_Component from "../components/Portfo_Component";
 
+//initilization
 const Portfolio_list = [
   {
     name: "Recommended outfits for today's weather",

@@ -34,7 +34,7 @@ class App extends Component {
       <HashRouter>
         <Route path="/" exact={true} component={Home} />
         <Route path="/about">
-          <Navigation 
+          <Navigation //composition function
             sidebar="side" //class name
             drawerToggle={this.drawerToggleClickHandler} //function block
             show={this.state.sideDrawerOpen}//state value

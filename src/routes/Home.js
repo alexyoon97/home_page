@@ -6,6 +6,7 @@ import {Spring} from 'react-spring/renderprops'
 class Home extends React.Component{
     render(){
         return(
+            //return home container that contains two spring block
             <div className="container">
                 <Spring
                     from={{opacity: 0}}

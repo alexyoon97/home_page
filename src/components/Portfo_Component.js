@@ -3,22 +3,27 @@ import { useTransition, animated } from "react-spring";
 import { Link } from "react-router-dom";
 
 function Portfo_Component({ Portfolio_list }) {
+  //initialization
   const [index, setIndex] = useState(0);
+  //index control function
   function onClick(){
     setIndex((prevstate) => (prevstate + 1) % Portfolio_list.length);
   }
+  //spring style options
   const transitions = useTransition(index, (p) => p, {
     from: { opacity: 0, transform: "translate3d(100%,0,0)" },
     enter: { opacity: 1, transform: "translate3d(0%,0,0)" },
     leave: { opacity: 0, transform: "translate3d(-50%,0,0)" },
   });
   return (
+    //page instructor line 20 to 25
     <div className="portfo_container">
       <header className="header">PROJECTS</header>
       <div style={{paddingTop:"3vh", color:"grey"}}>every project's codes are uploaded on 
       <a style={{color:"grey", textDecoration:"underline"}} href="https://github.com/alexyoon97" target="_blank">github</a> 
         <br></br>click the image to slide.
       </div>
+      {/* image slider for portfolio list */}
       <div className="imgSlider">
         {transitions.map(({ item, props, key }) => {
           return (
