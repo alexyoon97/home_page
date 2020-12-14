@@ -11,7 +11,7 @@ function About() {
       <header className="header">ABOUT</header>
       <div className="about_container">
         <div className="paragraph">
-          <img className="Me_img" src={Me}></img>
+          <img alt="" className="Me_img" src={Me}></img>
           <br></br>
           <h1 style={{color:"#badc58"}}>Hello,</h1>
           <h1 style={{color:"white"}}>My name is Alex Yoon</h1>
@@ -19,7 +19,7 @@ function About() {
 
           <p>
             I studied Computer Engineering for 2 years at NAIT, my course
-            focused <img className="Nait" src={Nait}></img> learning
+            focused <img alt="" className="Nait" src={Nait}></img> learning
             Object-Oriented Programming C#, C and C++, Web development and Hardware Interfacing. I am a person that likes to interact with new challenges and enjoy learning and pick up new skills to improve more.
             <br></br>
             <br></br>Whenever I face a difficulty or challenges I think as it's a great time to improve 
@@ -39,7 +39,7 @@ function About() {
               View Resume
             </a>
             <a href="https://github.com/alexyoon97" target="_blank">
-              <img className="github" src={Github}></img>
+              <img alt="" className="github" src={Github}></img>
             </a>
           </div>
         </div>

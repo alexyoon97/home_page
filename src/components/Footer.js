@@ -13,10 +13,10 @@ function Footer() {
           <h2>Computer Eng. Degree <br></br>
           Passionate and inquisitive<br></br>
           English and Korean speaker<br></br>
-          <img src={c_sharp}></img>
-          <img src={js}></img>
-          <img src={react}></img>
-          <img src={mysql}></img>
+          <img alt="" src={c_sharp}></img>
+          <img alt="" src={js}></img>
+          <img alt="" src={react}></img>
+          <img alt="" src={mysql}></img>
           </h2>
         </div>
         <div className="contact">

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import JS_weather_image from "./Portfolios/image/JS_weather_image.png";
 import Capstone_image from "./Portfolios/image/Capstone_project_image.JPG";
 import JS_minigame_image from "./Portfolios/image/JS_minigame_image.JPG";

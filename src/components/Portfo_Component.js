@@ -1,6 +1,7 @@
-import React, { useCallback, useState } from "react";
+import React, { useState } from "react";
 import { useTransition, animated } from "react-spring";
 import { Link } from "react-router-dom";
+import "../components/Portfo_Component.css";
 
 function Portfo_Component({ Portfolio_list }) {
   //initialization
@@ -19,11 +20,23 @@ function Portfo_Component({ Portfolio_list }) {
     //page instructor line 20 to 25
     <div className="portfo_container">
       <header className="header">PROJECTS</header>
-      <div style={{paddingTop:"3vh", color:"grey"}}>every project's codes are uploaded on 
-      <a style={{color:"grey", textDecoration:"underline"}} href="https://github.com/alexyoon97" target="_blank">github</a> 
-        <br></br>click the image to slide.
+      <div style={{paddingTop:"3vh", color:"grey"}}>codes are uploaded on <a style={{color:"grey", textDecoration:"underline"}} rel="noopener" href="https://github.com/alexyoon97" target="_blank">github</a> 
       </div>
       {/* image slider for portfolio list */}
+      <div className="index_display">
+        {
+          [...Array(Portfolio_list.length)].map((e,i) =>{
+            if(index === i){
+              return(<button key={i} className="current_portfolio">●</button>)
+            }
+            else{
+              return(<button key={i} className="">●</button>)
+            }
+
+          })
+        }
+
+      </div>
       <div className="imgSlider">
         {transitions.map(({ item, props, key }) => {
           return (
@@ -36,6 +49,7 @@ function Portfo_Component({ Portfolio_list }) {
               ></img>
               {Portfolio_list[index].link === "" ? (
                 <Link
+                style={{textDecoration:"none"}} 
                   to={{
                     pathname: `/portfolios/${Portfolio_list[index].name}`
                   }}
@@ -43,7 +57,7 @@ function Portfo_Component({ Portfolio_list }) {
                   {Portfolio_list[index].name} - Click Here
                 </Link>
               ) : (
-                <a href={Portfolio_list[index].link} target="_blank">
+                <a style={{textDecoration:"none"}}  href={Portfolio_list[index].link} rel="noreferrer">
                   {Portfolio_list[index].name} - Click Here
                 </a>
               )}

@@ -1,0 +1,12 @@
+.index_display button{
+  background: transparent;
+  font-size: 35px;
+  border: none;
+  padding: 10px;
+  transition: 0.7s;
+  outline: none;
+}
+.current_portfolio{
+    color: #e7b630;
+    opacity:100%;
+}

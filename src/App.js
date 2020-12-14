@@ -6,7 +6,6 @@ import Portfoilo from "./routes/Portfolio_page";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Capstone from "./routes/Portfolios/Capstone/Capstone";
-import ay_logo from "../src/components/logo/ay_logo.png";
 import "./App.css";
 
 class App extends Component {
@@ -15,6 +14,7 @@ class App extends Component {
       this.state = {
         sideDrawerOpen: false,
       };
+      //avoid unnessesary render
       this.drawerToggleClickHandler = this.drawerToggleClickHandler.bind(this);
       this.changeToggletoFalseHandler = this.changeToggletoFalseHandler.bind(this);
   }

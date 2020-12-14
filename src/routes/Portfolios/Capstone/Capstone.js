@@ -1,6 +1,5 @@
 import React from "react";
 import "./Capstone.css"
-import Under_con from "../Capstone/img/underconstruction.png"
 import Cap_1 from "../Capstone/img/capstone_project1.gif"
 import Cap_2 from "../Capstone/img/capstone_project2.gif"
 
@@ -23,7 +22,7 @@ function Capstone() {
         also the system will inform distance information on the display.
         </div>
         <div>
-          <img src={Cap_1}></img>
+          <img alt="" src={Cap_1}></img>
           <p style={{fontStyle: "italic", color: "white", fontSize:"1.4vh"}}>Figure 1</p>
           <div className="capstone_text" style={{padding:"8vh"}}>
             In Figure 1, it's showing a programmed robot vacuum is working sucessfully moving forward with no errors, and
@@ -31,7 +30,7 @@ function Capstone() {
           </div>
         </div>
         <div>
-          <img src={Cap_2}></img>
+          <img alt="" src={Cap_2}></img>
           <p style={{fontStyle: "italic", color: "white", fontSize:"1.4vh"}}>Figure 2</p>
           <div className="capstone_text">
             The Ultrasound chip will shoot a pulse and the machine will receive a returned pulse data to
