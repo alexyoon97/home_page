@@ -32,7 +32,6 @@ function Portfo_Component({ Portfolio_list }) {
             else{
               return(<button key={i} className="">●</button>)
             }
-
           })
         }
 

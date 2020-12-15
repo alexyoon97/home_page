@@ -11,7 +11,7 @@ class Home extends React.Component{
                 <Spring
                     from={{opacity: 0}}
                     to= {{opacity: 1}}
-                    config={{duration:2000}}
+                    config={{delay:800,duration:3000}}
                 >
                     {
                         props => (
@@ -25,7 +25,7 @@ class Home extends React.Component{
                 <Spring
                     from={{marginTop:-80, opacity:0}}
                     to={{marginTop:0, opacity:1}}
-                    config={{delay:1000,duration:1000}}
+                    config={{delay:2300,duration:1300}}
                 >
                     {
                         props=>(
